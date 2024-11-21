@@ -5,9 +5,13 @@ this is a step to step to create a new Angular Library
 ## Generate a new WorkSpace
 
 ```bash
-# No olvidar las banderas
+ng new frh-workspace --no-create-application
+```
 
-ng new my-workspace --no-create-application
+## Generate a new library
+
+```bash
+ng generate library frh-side-menu
 ```
 
 
