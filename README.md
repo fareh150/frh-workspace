@@ -16,22 +16,34 @@ ng generate library frh-side-menu
 
 
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Useful commands
+### App construction
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+ng build frh-side-menu --configuration development
+```
+> **Nota:** if you use this command (ng build frh-side-menu) it makes the build for production / use when u finish configuration
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### To start Testing
 
-## Running end-to-end tests
+```bash
+ng test frh-side-menu
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### To use linter
 
-## Further help
+```bash
+ng lint frh-side-menu
+```
+> **Nota:** if you need install / you need to press 2 times yes / and execute the command after install
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## more soon
+```
+ng build my-lib
+cd dist/my-lib
+npm publish
+```
+
