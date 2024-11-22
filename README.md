@@ -129,3 +129,8 @@ now we use our created script
 ```bash
 npm run frh-side-menu:publish
 ```
+
+every time you change the component , need to upgrade the version and publish again
+
+Try to put all the information to npm data
+***
