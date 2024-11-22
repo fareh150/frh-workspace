@@ -63,6 +63,16 @@ now you can use the component in your local project
 for these special project we will need tailwind , and it will be a dependency of our component.
 check `Global Tailwind Configuration` in commits
 
+## start to manage your component
+you can start to configure your component like a normal one
+
+##
+
+```bash
+ng build frh-side-menu --configuration development
+```
+
+
 
 
 
