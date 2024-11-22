@@ -14,6 +14,20 @@ ng new frh-workspace --no-create-application
 ng generate library frh-side-menu
 ```
 
+## Generate scrips
+
+Inside our root/package.json , we create the next scrips 
+
+```JSON
+scripts: {
+    ... ,
+    "frh-side-menu:build": "ng build frh-side-menu",
+    "frh-side-menu:lint": "ng lint frh-side-menu",
+    "frh-side-menu:test": "ng test frh-side-menu --no-watch --no-progress --browsers=ChromeHeadless",
+    "frh-side-menu:publish": "npm run frh-side-menu:test && npm run frh-side-menu:build && npm publish dist/frh-side-menu"
+}
+```
+
 
 
 
@@ -39,6 +53,18 @@ ng test frh-side-menu
 ng lint frh-side-menu
 ```
 > **Nota:** if you need install / you need to press 2 times yes / and execute the command after install
+
+## how to publish
+
+```bash
+ng build my-lib
+cd dist/my-lib
+npm publish
+```
+> **Nota:** in package.json inside SRC folder , we can change the version to publish and application name
+
+
+
 
 ## more soon
 ```
