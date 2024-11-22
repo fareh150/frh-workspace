@@ -134,3 +134,10 @@ every time you change the component , need to upgrade the version and publish ag
 
 Try to put all the information to npm data
 ***
+
+
+## Update a dependency
+```bash
+ng update frh-side-menu
+```
+
