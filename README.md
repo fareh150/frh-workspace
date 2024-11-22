@@ -41,6 +41,31 @@ now to use that new project u need to use
 ng serve frh-testbed-app
 ```
 
+in app.component.ts, we need to do the next import
+```javascript
+import { FrhSideMenuComponent } from 'frh-side-menu'
+```
+
+and add to imports
+```javascript
+  imports: [FrhSideMenuComponent],
+```
+
+now you can use the component in your local project
+
+```html
+<lib-frh-side-menu />
+```
+> **nota** if you make any change on your component, you need to rebuild de project to get the changes
+
+## Global tailwind
+
+for these special project we will need tailwind , and it will be a dependency of our component.
+check `Global Tailwind Configuration` in commits
+
+
+
+
 
 
 
