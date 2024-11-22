@@ -24,7 +24,7 @@ scripts: {
     "frh-side-menu:build": "ng build frh-side-menu",
     "frh-side-menu:lint": "ng lint frh-side-menu",
     "frh-side-menu:test": "ng test frh-side-menu --no-watch --no-progress --browsers=ChromeHeadless",
-    "frh-side-menu:publish": "npm run frh-side-menu:test && npm run frh-side-menu:build && npm publish dist/frh-side-menu"
+    "frh-side-menu:publish": "npm run frh-side-menu:test && npm run frh-side-menu:build && npm publish dist/frh-side-menu/"
 }
 ```
 
@@ -112,3 +112,20 @@ npm publish
 ---
 ***
 ___
+
+## Publish in NPM
+
+we need to have account in [https://www.npmjs.com/](https://www.npmjs.com/)
+
+after it , signIn in npm in Terminal
+
+```bash
+npm login 
+```
+and verify 2fA in your browser
+---
+now we use our created script
+
+```bash
+npm run frh-side-menu:publish
+```
