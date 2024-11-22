@@ -1,6 +1,21 @@
 {
   "name": "frh-side-menu",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fareh150/frh-workspace"
+  },
+  "keywords": [
+    "angular",
+    "side-menu",
+    "do-not-use"
+  ],
+  "license": "MIT",
+  "author": "Fareh Romero",
+  "bugs": {
+    "url": "https://github.com/fareh150/frh-workspace/issues"
+  },
+  "homepage": "https://github.com/fareh150",
   "peerDependencies": {
     "@angular/common": "^18.2.0",
     "@angular/core": "^18.2.0"
