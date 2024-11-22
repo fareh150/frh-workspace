@@ -1,4 +1,8 @@
 <h1 class="text-3xl font-bold underline">Hola Mundo</h1>
+
 <p>Hola de nuevo</p>
 
-<lib-frh-side-menu />
+<lib-frh-side-menu
+  [isAuthenticated]="isAuthenticated()"
+  (onSignIn)="isAuthenticated.set(true)"
+  (onSignOut)="isAuthenticated.set(false)"/>

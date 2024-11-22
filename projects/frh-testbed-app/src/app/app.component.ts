@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, signal } from '@angular/core';
 import { FrhSideMenuComponent } from 'frh-side-menu'
 
 @Component({
@@ -11,4 +10,6 @@ import { FrhSideMenuComponent } from 'frh-side-menu'
 })
 export class AppComponent {
   title = 'frh-testbed-app';
+
+  isAuthenticated = signal(false);
 }
