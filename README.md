@@ -66,18 +66,16 @@ check `Global Tailwind Configuration` in commits
 ## start to manage your component
 you can start to configure your component like a normal one
 
-##
+## to develop
 
+if we want to check any change on the new component we need to use these 
 ```bash
 ng build frh-side-menu --configuration development
 ```
 
+to see the changes in the importation, and will need to use `ng serve -o` again
 
-
-
-
-
-
+Now make any functionality you want.
 
 ## Useful commands
 ### App construction
@@ -111,12 +109,6 @@ npm publish
 > **Nota:** in package.json inside SRC folder , we can change the version to publish and application name
 
 
-
-
-## more soon
-```
-ng build my-lib
-cd dist/my-lib
-npm publish
-```
-
+---
+***
+___
