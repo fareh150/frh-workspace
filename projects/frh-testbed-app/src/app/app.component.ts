@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { FrhSideMenuComponent } from 'frh-side-menu'
+import { FrhSideMenuComponent, TitleColor } from 'frh-side-menu'
 
 @Component({
   selector: 'app-root',
@@ -10,6 +10,8 @@ import { FrhSideMenuComponent } from 'frh-side-menu'
 })
 export class AppComponent {
   title = 'frh-testbed-app';
+
+  titleColor = TitleColor
 
   isAuthenticated = signal(false);
 }
