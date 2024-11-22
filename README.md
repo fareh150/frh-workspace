@@ -28,6 +28,18 @@ scripts: {
 }
 ```
 
+## To check the functionality
+
+in workspace root generate a new `TestBed` application
+
+````bash
+ng generate application frh-testbed-app
+````
+now to use that new project u need to use 
+
+```bash
+ng serve frh-testbed-app
+```
 
 
 
