@@ -1,16 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, input, output } from '@angular/core';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'lib-frh-side-menu',
   standalone: true,
-  imports: [],
-  template: `
-    <p>
-      frh-side-menu works!
-    </p>
-  `,
+  imports: [
+    RouterLink,
+    RouterLinkActive
+  ],
+  templateUrl: './frh-side-menu.component.html',
   styles: ``
 })
-export class FrhSideMenuComponent {
-
+export class FrhSideMenuComponent
+{
+  activeCss = "rounded-lg bg-gradient-to-tr from-blue-600 to-blue-400 text-white shadow-md shadow-blue-500/20 active:opacity-[0.85] w-full flex items-center gap-4 px-4 capitalize"
+  isAuthenticated = input(false);
+  onSignOut = output();
+  onSignIn = output();
 }
